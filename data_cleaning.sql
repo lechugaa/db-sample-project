@@ -55,7 +55,7 @@ UPDATE cleaning.food_inspections
 SET facility_type =
     CASE
         WHEN facility_type ILIKE '%CONVENIENCE STORE%' THEN 'CONVENIENCE STORE'
-        WHEN facility_type ILIKE '%GAS STATION%' THEN 'CONVENIENCE STORE'
+        WHEN facility_type ILIKE '%GAS STATION%' THEN 'GAS STATION'
         WHEN facility_type ILIKE '%1023%' THEN 'CHILDREN''S SERVICES FACILITY'
         WHEN facility_type ILIKE '%1005%' THEN 'NURSING HOME'
         WHEN facility_type ILIKE '%LIQUOR%' THEN 'LIQUOR'
